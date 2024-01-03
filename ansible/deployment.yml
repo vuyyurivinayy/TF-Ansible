@@ -22,4 +22,5 @@
       git:
         repo: "https://github.com/devops0014/staticsite-docker.git"
         dest: /var/www/
+        update: yes
         version: master
