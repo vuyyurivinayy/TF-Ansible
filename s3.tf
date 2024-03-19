@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "one" {
-  bucket = "sm7243.flm.bucket"
+  bucket = "mustafa.ccit-devops.bucket"
 }
 
 resource "aws_s3_bucket_ownership_controls" "two" {
