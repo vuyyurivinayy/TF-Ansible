@@ -24,10 +24,4 @@ status = "Enabled"
 }
 
 
-terraform {
-  backend "s3" {
-    bucket = "sm7243.flm.bucket"
-    key    = "prod/terraform.tfstate"
-    region = "us-east-1"
-  }
-}
+
