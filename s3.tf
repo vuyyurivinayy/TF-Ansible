@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "one" {
-  bucket = "mustafa.ccit-devops.bucket"
+  bucket = "mustafa.flm-devops.bucket"
 }
 
 resource "aws_s3_bucket_ownership_controls" "two" {
@@ -23,13 +23,7 @@ status = "Enabled"
 }
 }
 
-terraform {
-  backend "s3" {
-    bucket = "mustafa.ccit-devops.bucket"
-    key    = "prod/terraform.tfstate"
-    region = "us-east-1"
-  }
-}
+
 
 
 
