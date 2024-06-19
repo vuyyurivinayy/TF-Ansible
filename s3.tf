@@ -23,13 +23,5 @@ status = "Enabled"
 }
 }
 
-terraform {
-  backend "s3" {
-    bucket = "mustafa.devops.project.bucket"
-    key    = "prod/terraform.tfstate"
-    region = "us-east-1"
-  }
-}
-
 
 
