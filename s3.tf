@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "one" {
-  bucket = "vinay.devops.project.bucket"
+  bucket = "vinay.devops.project.buckets"
 }
 
 resource "aws_s3_bucket_ownership_controls" "two" {
