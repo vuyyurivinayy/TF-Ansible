@@ -23,5 +23,12 @@ status = "Enabled"
 }
 }
 
+terraform {
+  backend "s3" {
+    bucket = "vinay.devops.project.buckets"
+    key    = "prod/terraform.tfstate"
+    region = "us-east-1"
+  }
+}
 
 
